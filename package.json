@@ -1,0 +1,16 @@
+{
+  "name": "certified",
+  "version": "1.0.0",
+  "description": "NodeSource Certified Modules How-To",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "certified",
+    "modules",
+    "nodesource"
+  ],
+  "author": "NodeSource",
+  "license": "MIT"
+}
