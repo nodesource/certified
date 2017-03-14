@@ -9,11 +9,13 @@ Setup
 1. Create an account at https://platform.nodesource.io
 2. Copy the REGISTRY URL for your account from the bar near the top.
 3. run `npm config set registry https://yourregistry.nodesource.io`
-4. run `npm login`
+4. run `npm ping`, which should print a simple JSON object, to validate you have network access to the repository
+5. run `npm login`
   * use anything for username (it's ignored)
   * use the email address you signed up with at https://plaform.nodesource.io
   * use the password you chose upon signup
-5. now any `npm install` will use your certified modules registry to screen for quality
+6. run `npm whoami`, which should print your email address, to validate you have logged in successfully
+7. now any `npm install` will use your certified modules registry to screen for quality
 
 Overriding Certification Scores
 ================================================================================
