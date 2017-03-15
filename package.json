@@ -12,5 +12,13 @@
     "nodesource"
   ],
   "author": "NodeSource",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodesource/certified.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodesource/certified/issues"
+  },
+  "homepage": "https://github.com/nodesource/certified#readme"
 }
